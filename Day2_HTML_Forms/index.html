@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - HTML Forms</title>
+    <style>
+        h1 {
+            margin-top: 144px;
+            margin-right: 73px;
+            margin-bottom: 3px;
+            margin-left: 410px;
+        }
+        form {
+            margin-top: 27px;
+            margin-right: 73px;
+            margin-bottom: 3px;
+            margin-left: 410px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="/Day2_HTML_Forms/submitted.html" target="_blank">
+        <fieldset>
+            <legend><strong>Academic Form</strong></legend>
+            <label for="firsName"><strong>First Name</strong></label><br>
+            <input type="text" id="firstName" placeholder="Enter firstname here"> <br> <br>
+            <label for="lastName"><strong>Last Name</strong></label><br>
+            <input type="text" id="lastName" placeholder="Enter lastname here"> <br> <br>
+            <label for=""><strong>Birthdate</strong></label> <br>
+            <input type="date"> <br> <br>
+            <label for="Gender"><strong>Gender</strong></label> <br> <br>
+            <input type="radio" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" value="Female">
+            <label for="Female">Female </label> <br> <br>
+            <label for=""><strong>Hobbies</strong></label> <br> <br>
+            <input type="checkbox">
+            <label for="">Programming</label>
+            <input type="checkbox">
+            <label for="">Drawing</label>
+            <input type="checkbox">
+            <label for="">Hiking</label> <br> <br>
+            <label for=""><strong>Choose Course to Study</strong></label> <br>
+            <select name="" id="" multiple>
+                <option value="">Web Development Course</option>
+                <option value="">Cybersecurity</option>
+                <option value="">Networking</option>
+                <option value="">IT Support</option>
+            </select> <br> <br>
+            <label for=""><strong>Why do you want to study this course</strong></label> <br> <br>
+            <textarea name="" id="" cols="40" rows="10"></textarea> <br> <br>
+            <hr>
+            <label for=""><strong>Upload your CV</strong></label> <br> <br>
+            <input type="file"> <br> <br>
+            <hr>
+            <input type="button" name="" id="" value="Submit"> 
+            <input type="button" name="" id="" value="Reset"> 
+        </fieldset>
+    </form>
+</body>
+</html>
