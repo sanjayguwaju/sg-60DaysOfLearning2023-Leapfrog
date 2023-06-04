@@ -29,6 +29,9 @@ Track your progress by updating the table below:
 |----|--------|-----------|
 | 1  | Introduction to HTML | [Completed] |
 | 2  | HTML Forms           | [Completed] |
+| 3  | Introduction to CSS  | [Completed] |
+| 4  | CSS Layouts          | [Completed] |
+
 
 ## Conclusion
 By the end of this 60-day challenge, you will have gained a solid understanding of HTML, CSS, JavaScript, and React. Get ready to embark on an exciting learning journey!

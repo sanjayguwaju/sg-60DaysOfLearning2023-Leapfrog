@@ -1,0 +1,66 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a base font size and family */
+  body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply some basic styles to the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Apply some basic styles to the main content */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Create a grid-based gallery using CSS Grid */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Create a fluid layout using Flexbox for the gallery */
+  @media screen and (max-width: 768px) {
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Apply some basic styles to the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
